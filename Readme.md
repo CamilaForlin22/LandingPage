@@ -1,0 +1,1 @@
+I programmed this landing page compaining <a href="https://www.youtube.com/@rafaellaballerini">Rafa Ballerini Youtube Channel</a> to review and practice my Html and CSS skills.
