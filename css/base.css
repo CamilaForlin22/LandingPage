@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+:root {
+    --font-righteous:"Righteous", sans-serif;
+    --font-sarala:"Sarala", sans-serif;
+    --cor-um:#FFF2E7;
+    --cor-dois:#ECD6C4;
+    --cor-tres:#2F2325;
+    --cor-quatro:#8E5D52;
+
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, var(--cor-tres) 16.62%, var(--cor-quatro) 85.61%);
+    min-height: 100vh;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    text-align: center;
+    padding: 1.5rem;
+    
+}
+
+.cabecalho-imagem{
+    height: 100px; 
+}
+
+
+.cabecalho-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.cabecalho-menu_ancora{
+    font-family:var(--font-sarala);
+    font-weight: 600;
+    font-style: normal;
+    color:var(--cor-um);
+}
+
+.cabecalho-menu_ancora:hover{
+    color: var(--cor-tres);
+}
+
+.rodape{
+    width: 100vw;
+    border-top: #FFF2E7 solid 0.4px;
+    margin-top: auto;
+}
+.rodape-imagem{
+    padding: 3rem 0;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+@media screen and (min-width:1920px) {
+.cabecalho{
+    margin: 2%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;   
+}
+
+.cabecalho-imagem{
+    height: 130px; 
+    
+}
+
+
+.cabecalho-menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    gap: 5rem;
+}
+
+
+.cabecalho-menu_ancora{
+    font-size: 1.7rem;
+}
+
+}
